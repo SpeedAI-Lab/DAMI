@@ -4,7 +4,7 @@
 
 Zhangchi Feng · Harry Jiang · Yangyifei Luo · Ray Zhang · Richong Zhang
 
-[Project page](https://speedai.com/research/dami) · [Training](#training) · [Evaluation](#ruler-evaluation) · [Results](#ruler-results)
+[Project page](https://speedai.com/research/dami) · [Checkpoints](https://huggingface.co/SpeedAI-Lab/DAMI) · [Training](#training) · [Evaluation](#ruler-evaluation) · [Results](#ruler-results)
 
 DAMI allocates memory timescales across heads and input responses across layers to improve long-context retrieval. This repository supports all **15 combinations** of GDN / KDA / GDN2 / Mamba-2 / RWKV-7 and Random / PoST / DAMI through one training entry point.
 
@@ -52,7 +52,7 @@ The original experiments used FLAME; these training entry points use Transformer
 
 Included: **5,500 fixed samples** across 11 task/length settings and **82,500 original predictions** from the 15 paper checkpoints.
 
-**Model weights (Hugging Face): TODO — download links will be added after release.** Model weights are not included in this repository. The checkpoint directory names are:
+**Model weights:** [SpeedAI-Lab/DAMI on Hugging Face](https://huggingface.co/SpeedAI-Lab/DAMI). Access requires authentication and repository permission while the weight repository is private. Weights are stored under `checkpoints/`; the checkpoint directory names are:
 
 | Architecture | Random | PoST | DAMI |
 | --- | --- | --- | --- |
@@ -62,7 +62,19 @@ Included: **5,500 fixed samples** across 11 task/length settings and **82,500 or
 | Mamba-2 | `main_mamba2_random` | `main_mamba2_PoST` | `main_mamba2_DAMI` |
 | RWKV-7 | `main_rwkv7_random` | `main_rwkv7_PoST` | `main_rwkv7_DAMI` |
 
-After downloading, place the model directories under a common root:
+From the code repository root, download the checkpoints while preserving their directory structure:
+
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="SpeedAI-Lab/DAMI",
+    local_dir=".",
+    allow_patterns=["checkpoints/**"],
+)
+```
+
+To download only GDN + DAMI, use `allow_patterns=["checkpoints/main_gdn_DAMI/*"]`. The resulting layout is:
 
 ```text
 checkpoints/
