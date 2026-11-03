@@ -50,12 +50,34 @@ The original experiments used FLAME; these training entry points use Transformer
 
 ## RULER evaluation
 
-Included: **5,500 fixed samples** across 11 task/length settings and **82,500 original predictions** from the 15 paper checkpoints. Checkpoints are supplied separately in directories such as `main_gdn_random`, `main_gdn_PoST`, and `main_gdn_DAMI`.
+Included: **5,500 fixed samples** across 11 task/length settings and **82,500 original predictions** from the 15 paper checkpoints.
+
+**Model weights (Hugging Face): TODO — download links will be added after release.** Model weights are not included in this repository. The checkpoint directory names are:
+
+| Architecture | Random | PoST | DAMI |
+| --- | --- | --- | --- |
+| GDN | `main_gdn_random` | `main_gdn_PoST` | `main_gdn_DAMI` |
+| KDA | `main_kda_random` | `main_kda_PoST` | `main_kda_DAMI` |
+| GDN2 | `main_gdn2_random` | `main_gdn2_PoST` | `main_gdn2_DAMI` |
+| Mamba-2 | `main_mamba2_random` | `main_mamba2_PoST` | `main_mamba2_DAMI` |
+| RWKV-7 | `main_rwkv7_random` | `main_rwkv7_PoST` | `main_rwkv7_DAMI` |
+
+After downloading, place the model directories under a common root:
+
+```text
+checkpoints/
+├── main_gdn_random/
+├── main_gdn_PoST/
+├── main_gdn_DAMI/
+└── ...
+```
+
+Each model directory should contain `config.json`, `model.safetensors`, and tokenizer files. Run the following commands from the repository root; replace `checkpoints` with your own checkpoint directory if needed.
 
 Check the downloaded models without running inference (Windows/CPU supported):
 
 ```powershell
-python evaluate_ruler.py --preflight --all --models-root "D:\Downloads\15"
+python evaluate_ruler.py --preflight --all --models-root checkpoints
 ```
 
 Recompute the original main table without models or a GPU:
@@ -67,7 +89,7 @@ python evaluate_ruler.py --rescore-reference --all --output-dir outputs/ruler-re
 Re-run all 15 checkpoints in Linux/WSL with CUDA:
 
 ```bash
-python evaluate_ruler.py --all --models-root /mnt/d/Downloads/15 \
+python evaluate_ruler.py --all --models-root checkpoints \
   --output-dir outputs/ruler-retest --skip-done
 ```
 
