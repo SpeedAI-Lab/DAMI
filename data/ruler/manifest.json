@@ -1,0 +1,106 @@
+{
+  "name": "DAMI fixed RULER main-table subset",
+  "samples_per_setting": 500,
+  "total_samples": 5500,
+  "settings": [
+    {
+      "task": "niah_single_1",
+      "length": 1024,
+      "path": "niah_single_1/1024/samples_niah_single_1_1024.jsonl",
+      "samples": 500,
+      "sha256": "5f33e0d5aa217dde900052c76223058bb3516a54b134cd0de078f3202f12e385",
+      "original_sample_file_sha256": "009afc981c2cfeb4e9a08cc76dc713890847cae0dd136dec7534ccc4dc789a8f",
+      "prompt_gold_sha256": "6db86b158919ae7250377a41e957ee50d71e2fd7b53099f697910bfb4ad394ba"
+    },
+    {
+      "task": "niah_single_1",
+      "length": 2048,
+      "path": "niah_single_1/2048/samples_niah_single_1_2048.jsonl",
+      "samples": 500,
+      "sha256": "5dca43c2e157af94d1b94cd48e66dcf9bf83fc53826874b036be186a9ce5f784",
+      "original_sample_file_sha256": "586c93fb15e123a8b77217f40e7d8df5c3384898e10413ea71d4c398ef13698a",
+      "prompt_gold_sha256": "ad45e1c2d807f5964b0c93b5aa7889696d08e42eb01c373e1a18cfe9c3826673"
+    },
+    {
+      "task": "niah_single_1",
+      "length": 4096,
+      "path": "niah_single_1/4096/samples_niah_single_1_4096.jsonl",
+      "samples": 500,
+      "sha256": "50cd4d7527e89b974c10bc2c9f4e68571081687e07d0e76cc2f788afc22d5ea7",
+      "original_sample_file_sha256": "cb7b495036dacc8e5260062f83d1cef92b074a68bf017d51dcebc06de376450a",
+      "prompt_gold_sha256": "cc5a9b23c2313b8cd0c4bffbfbbce71f22ebafbb714801f9f5d7d615224d831d"
+    },
+    {
+      "task": "niah_single_1",
+      "length": 8192,
+      "path": "niah_single_1/8192/samples_niah_single_1_8192.jsonl",
+      "samples": 500,
+      "sha256": "8d19dfe8f47671cb723b59ca8bc45217d14b115802eb9c7ce5f6946cdbfad491",
+      "original_sample_file_sha256": "937ec7e5208358e152f4fb2fc3f956e3142e8c7c92993dee7597a8887ff5579c",
+      "prompt_gold_sha256": "e8ef362a5c2b1d2fca040691fddf585bc58841fa2c4497964488342a342cf166"
+    },
+    {
+      "task": "niah_single_2",
+      "length": 1024,
+      "path": "niah_single_2/1024/samples_niah_single_2_1024.jsonl",
+      "samples": 500,
+      "sha256": "ce2e005263c4130650f5f0f28731830376085cc203fce85b6428be7ece20257f",
+      "original_sample_file_sha256": "90c2df18d1bc9b58913aa03e129a0a06960af5be0967ee2f74a37bc2288b1cb9",
+      "prompt_gold_sha256": "a5995060449070657b3f64c61a3996349bff600b4e095f678c2baee2d2fd675e"
+    },
+    {
+      "task": "niah_single_2",
+      "length": 2048,
+      "path": "niah_single_2/2048/samples_niah_single_2_2048.jsonl",
+      "samples": 500,
+      "sha256": "054681286b783d2f46f3cb72235fecd4639912ea84170d4f20b9f9b97c84fdd7",
+      "original_sample_file_sha256": "485b518032ebd29426af941d3801cc551b196839890bfae429597c5955e96cc1",
+      "prompt_gold_sha256": "3faf8b839170f828f124e74d43f5122bce67c0e38db7496bc863f0eecec19b8c"
+    },
+    {
+      "task": "niah_single_2",
+      "length": 4096,
+      "path": "niah_single_2/4096/samples_niah_single_2_4096.jsonl",
+      "samples": 500,
+      "sha256": "150db27e893b868ac48e8dbe712ef0b719e7422b1aa105142dbbb5b1a2d6888b",
+      "original_sample_file_sha256": "5c8fc66701576491b70462101a8e35da22150b71f427b290a9a20027c59c1b66",
+      "prompt_gold_sha256": "ce757734f71725b2bf7d07995a8f5843ac75b323a42f6608b0aa23cbd4756b10"
+    },
+    {
+      "task": "niah_single_2",
+      "length": 8192,
+      "path": "niah_single_2/8192/samples_niah_single_2_8192.jsonl",
+      "samples": 500,
+      "sha256": "b6902bb86af02a475c284688c47a4a3033d861e013327d704159196cd67df089",
+      "original_sample_file_sha256": "f03a65e809156b6d6deebef9f64415c926651cc73deae1a582f89cece30a7a02",
+      "prompt_gold_sha256": "6b9a6758f2f9d9a22ffefd00faff150c2645317229f62eb3b88e8f2a2cdd9193"
+    },
+    {
+      "task": "niah_multikey_1",
+      "length": 1024,
+      "path": "niah_multikey_1/1024/samples_niah_multikey_1_1024.jsonl",
+      "samples": 500,
+      "sha256": "c5e0306b27999bcdbc10d99635a7a813c17e906642cdda51509d5128dac7cf9a",
+      "original_sample_file_sha256": "ce5ee08ccb7c668c5bc0274e458f234d5339bdd67fe3c81699e3e6a6212e9a19",
+      "prompt_gold_sha256": "d0e7a01c12b486ad82bc8b889d1e580f600a477243eefc371fd4986fb7f82222"
+    },
+    {
+      "task": "niah_multikey_1",
+      "length": 2048,
+      "path": "niah_multikey_1/2048/samples_niah_multikey_1_2048.jsonl",
+      "samples": 500,
+      "sha256": "2d2a6bf13c6f6554bbb82a36e913c067471fd5b0fe6dd25c0457bf32db900cb3",
+      "original_sample_file_sha256": "d8be7b9029e68e0bbbba591347d0013624ae5bf87bfe513a1f33ec9d22ed3d8e",
+      "prompt_gold_sha256": "dcea35d3cc8aa7bad9941b22e5d23a3d72ffbf428de6c2cf456f5c8467d36c74"
+    },
+    {
+      "task": "niah_multikey_1",
+      "length": 4096,
+      "path": "niah_multikey_1/4096/samples_niah_multikey_1_4096.jsonl",
+      "samples": 500,
+      "sha256": "39665292f4cff9c4e2d50f4dfe289f4435e132445bfc72872c4dbe92a6c69e41",
+      "original_sample_file_sha256": "84b6ec2738b960b892042b8dc5a8fa3891a9696949232a8e3d95e390d00ff9f3",
+      "prompt_gold_sha256": "07da7399ec0eabcb883ff8219b78e20333561aa2836a36dbb9e0d924d4e003f2"
+    }
+  ]
+}

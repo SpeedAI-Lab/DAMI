@@ -1,0 +1,16 @@
+# UTF-8. Python 3.12; Linux + NVIDIA CUDA. Install the matching CUDA PyTorch wheel.
+torch==2.9.0
+triton==3.5.0; platform_system == "Linux"
+transformers==5.9.0
+datasets==3.6.0
+accelerate==1.14.0
+safetensors==0.7.0
+einops>=0.8,<1
+# Mamba-2's external SSD and convolution kernels.
+mamba-ssm==2.2.6.post3
+causal-conv1d==1.7.0
+ninja>=1.11
+packaging>=24
+# Pin the public revision that contains all five models, including GDN2.
+# DAMI's RWKV-7 adapter is applied in memory; installed FLA files are not edited.
+flash-linear-attention @ git+https://github.com/fla-org/flash-linear-attention.git@f7c2c1912da445301e0191c9d1126cd01674eb50

@@ -1,0 +1,2798 @@
+{
+  "format_version": 1,
+  "models": [
+    {
+      "architecture": "gdn",
+      "initialization": "random",
+      "directory": "main_gdn_random",
+      "recorded_checkpoint_sha256": "d051a268ba74185e4f53952817ae3545c3e4ff22a7dac1c72d970150f5e0231c",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 92.60000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_1/1024.jsonl",
+          "prediction_sha256": "d0575266394faa03bbb17df4843e9a35d8e2ee1694e9ba5ba08537e96ec732b6",
+          "original_prediction_sha256": "3d9a54b7bdbb03176936dbe16129c8f5f8898770340cfe29412993757d8551d7"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 62.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_1/2048.jsonl",
+          "prediction_sha256": "d27efc0d049511d8afd69be16c1d92545d1cf9248ab9951dc1ece88e221af857",
+          "original_prediction_sha256": "cab933c60dd74a5bff4d6d31c92c1a3cd307b497b0e3dbdecb1c346ac35366a7"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 32.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_1/4096.jsonl",
+          "prediction_sha256": "f7a2f38c98a22bbeb9400122dfd9f7d363bdd6e78af60a0658473a3d64351465",
+          "original_prediction_sha256": "c62a837e12ce819e2c656900c2332a29afebd354c99bb87ff8eaa80ea15e48e6"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 13.200000000000001,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_1/8192.jsonl",
+          "prediction_sha256": "01c18668717e330f659b45db43c8edabdcb9b402985103c354b53dacc6834181",
+          "original_prediction_sha256": "3658d774f45c421121a0c7f6344480bf4594a68252a38e9e1301ca30389d6f64"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 19.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_2/1024.jsonl",
+          "prediction_sha256": "ad2bace908956ff1f761d80273509660160c098fb6ba11608afd48fbdb99248e",
+          "original_prediction_sha256": "883fca74073ab9deedd3606b9422bf0b9d0080ed5b67b45f088e13cff43cb554"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 41.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_2/2048.jsonl",
+          "prediction_sha256": "8a911885cbfe859dfb6c67eee4248f6e66f688c24b1dc189bd34483d458910f2",
+          "original_prediction_sha256": "6a3f0c5db00ea725a13f31bf8a303a73fbaaad654b3429003154f45ea40b5d4c"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 13.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_2/4096.jsonl",
+          "prediction_sha256": "6897b0753ee8632ddc72a6de8c7c7f0c5977da8f893cc4728b19ede69365cdc1",
+          "original_prediction_sha256": "ee2221ea6074a305b4be10171c98dfe044c28be7f6fca45ef0d3748c1fd72531"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 1.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_single_2/8192.jsonl",
+          "prediction_sha256": "566613205952064de3cb505dc07b7a7757c0157e9fcd07fd2d3f3e30815f7c07",
+          "original_prediction_sha256": "5f20749906e3398d07026c43d15624c43b4d50764ad8abef89c8750350802bb2"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 24.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "32d3e60416154211b6881e707fc9ba9d9e23a21eb79f64952ee7b636c9d972b2",
+          "original_prediction_sha256": "f9ed323895f9211ac381d1491735788a6c1493d7cd4e0052db4c2b03cf50336b"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 20.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "0f02115afffe1bcac1f8456167be669d8a1cbdbdcc22849f89b30e33586a2d16",
+          "original_prediction_sha256": "03cdcc52979e9ce452103fe7a51c1fad348ed2cf99f0b720ee6a0491f9174e3f"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 12.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/random/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "282128f0c69b3c2b40ebec270743f33a98397aaa797255abb4fa2d2e92e77729",
+          "original_prediction_sha256": "f6b88fbb33be8d0ef360158cae3ed165e94286abf06537743c8a86f98d9fbff8"
+        }
+      ],
+      "average_percent": 30.41818181818182
+    },
+    {
+      "architecture": "gdn",
+      "initialization": "post",
+      "directory": "main_gdn_PoST",
+      "recorded_checkpoint_sha256": "0875da62fdcf7760f134daab4593c6d7d250c82b9899da15344deb893ffb20ba",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 93.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_1/1024.jsonl",
+          "prediction_sha256": "4e748318d3b3ac8a9cf49412cc7875f9774f7c52710f5ac95069adbb83215dde",
+          "original_prediction_sha256": "2abf671956315548bd352dd748072bd7c88ccb05a4cadea4c99e295263dc2942"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 64.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_1/2048.jsonl",
+          "prediction_sha256": "e3ed71b93252c011227ff418b958ba937132ba73911da7243b5c23c66c9eb924",
+          "original_prediction_sha256": "949e4a1f08f27ec0aad707337a1e0d3af882cf60ba51f30ae0c37556c0fc3462"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 35.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_1/4096.jsonl",
+          "prediction_sha256": "29c518ae44be4a7a91d1c4cc2bc3a619f78e5a79bb26010393d44506d3609d9c",
+          "original_prediction_sha256": "8adac9dbf17b8b8913687e4fad540c2034efd10d19ac33b6d69b377b0cc954e4"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 14.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_1/8192.jsonl",
+          "prediction_sha256": "aa4984ea1502e090b1cdea2e106e5e17593963dce0bed2e695a9a4a53bdff010",
+          "original_prediction_sha256": "849b577df84f2c3685b4d9bce837f3402f88c1e580d545611fd61a26a067b34b"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 47.599999999999994,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_2/1024.jsonl",
+          "prediction_sha256": "7c4bdc84d9802751164e4b13aa8cd0ab6ff9a746c633e63a99c39e7282268555",
+          "original_prediction_sha256": "748ca3ddb957066999fdf9fb64e22827bc2318a365288b2a99d267969bca1256"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 47.599999999999994,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_2/2048.jsonl",
+          "prediction_sha256": "640960e1f0a7754c85c9362ba44c4d3f71f7a58596cd59d19e3025a7d6c50bd9",
+          "original_prediction_sha256": "607a821bc73e951b501218168e0a4327f4016b1a68c1a1228491442d14ff9e80"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 2.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_2/4096.jsonl",
+          "prediction_sha256": "0565c3418f73baf16411e34205239053ebdcea7daddf470c6262d06c26080098",
+          "original_prediction_sha256": "40fd586e80524834ff1b9e124c01c035d0c2e3a4e557927d4644f4392af958bc"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 9.4,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_single_2/8192.jsonl",
+          "prediction_sha256": "193e9b2488387359bcc0f3d0a176e88d360388bf1acea4debc75b3fdaffb897f",
+          "original_prediction_sha256": "671f4018befa9581ad3e09b65165b4769aee53e8ae0f53500911d388db464607"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 23.599999999999998,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "74471977bb245be3f4f0ff768425014d9eef17a6b5296a7cb40a12ed53c332bf",
+          "original_prediction_sha256": "b93da0de26746cf78b88be227abe009af9d85c2872ea160783d676032300b58f"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 21.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "4d79f24bdfece5627ea5f727890805e5df3c2c6648dd95d8b08dd35fe3a8cd94",
+          "original_prediction_sha256": "09419733a6f7572f8e0c20216d99118ee68dde83d3b19341db5fe1f5d51865cb"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 8.200000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/post/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "dba04fd37f27d8b71909c1a208520eabbcf8df8557edf79959fc6835d5b76b36",
+          "original_prediction_sha256": "22ad26b1d17b16560a91d648dcbb393eb8ca2deeb6362028a61942933cba0d46"
+        }
+      ],
+      "average_percent": 33.49090909090909
+    },
+    {
+      "architecture": "gdn",
+      "initialization": "dami",
+      "directory": "main_gdn_DAMI",
+      "recorded_checkpoint_sha256": "13dfd749678ff1f0578e57765e08cf262903aa6fbedf07ceba679f9ab291e9e2",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 95.39999999999999,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_1/1024.jsonl",
+          "prediction_sha256": "48645c3046f998257986df5f0ee5d72268215547e44b7519351159a223684887",
+          "original_prediction_sha256": "915d897f0d33a714787b504424a6c29fe33ff5c2ac90985e3c3107bce0ce8fc8"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 84.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_1/2048.jsonl",
+          "prediction_sha256": "5642dca09ba1619421a8ef301bb0ce0b56426de09ef9010a5a73f7419e014470",
+          "original_prediction_sha256": "aaa01938aa208e54f9fb09a6046ab649cde5872fba9a9cb984e87390f259ab4f"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 53.800000000000004,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_1/4096.jsonl",
+          "prediction_sha256": "2d2cea1ca4543643bc7f256335aa499e2bdd85f0c4ed61066937f08344b109f0",
+          "original_prediction_sha256": "d2a1f4a870ae936474d11bdefea7dd359524a9faba1c97e4b689062414c9ccc6"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 24.2,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_1/8192.jsonl",
+          "prediction_sha256": "cf7f13bf2b4498f99a0dae5ff710a9cd2e927b11b769fab28322f708c411219b",
+          "original_prediction_sha256": "c37767baef72bbc87ff81f84870286c02fa03900b269a19cdb7a6a03f6b9a784"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 89.60000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_2/1024.jsonl",
+          "prediction_sha256": "df65acfe7414d396927efac076f6112e1704a2df03fcaec606466fac50123e8f",
+          "original_prediction_sha256": "fc8f11ba358a7ad2137ce409937730f967ac7a91db6dfd5b3a80ac0b841a8b20"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 55.60000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_2/2048.jsonl",
+          "prediction_sha256": "10b71ba98aaabf4129560967230de6ad2e8bad2da6b188bf5cdaf790755c9540",
+          "original_prediction_sha256": "4a0827aab8083ad8894f4a85d4f6fd1bec07786c273dea2ed32ea1a995824177"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 13.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_2/4096.jsonl",
+          "prediction_sha256": "19ad6ce8a6ec72eb2021f805dc5f48429fc17063e68b8980fee4b067a9a6035e",
+          "original_prediction_sha256": "1e263afe341bdf9b836b3f7d57c8846f07753a4855ae1ba03f0e6d30cb7ed522"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 12.8,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_single_2/8192.jsonl",
+          "prediction_sha256": "b1dca6dfc338d6921c793211c469aba3ad670d6d702d1b2808e61c185088e9db",
+          "original_prediction_sha256": "659b3b3caae3b9ec94d204583090ca12c20ea89e6caf602937491aa4f2261276"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 25.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "f0e92cec29123003bfb1e20ac0a6f5b127138f267ba035bded2ff404e7ebb6bb",
+          "original_prediction_sha256": "4a63292efe4d41396bf5cb06fbe580ea9b38b90f4562beb33a93a330895d1740"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 22.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "a6b6ee9db82f94b166887e8f8f46b0d89b59c50549175fce6e3accc79111c3e4",
+          "original_prediction_sha256": "4c38a89e9986a523b21dd559917f6753990c3bc46d1378dcb22f357c7aafcd07"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 12.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn/dami/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "32d1e528c92b9b1eba4128d13b7da1f3c9fe35e8ad6e43ebf4f8fb42e8047cad",
+          "original_prediction_sha256": "b56e01e7120710f267dfbf1d7527af4076a0dbabd96601b4c553ceece435b0e1"
+        }
+      ],
+      "average_percent": 44.36363636363637
+    },
+    {
+      "architecture": "kda",
+      "initialization": "random",
+      "directory": "main_kda_random",
+      "recorded_checkpoint_sha256": "f6033721f703a952664942d1a51e7704d45688fba56ae432d5fd656a9ea1b6c1",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 63.800000000000004,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_1/1024.jsonl",
+          "prediction_sha256": "ab681010889eef2c493ed11cc085bd080758e3efe63bb29c9a39b15ec0502d43",
+          "original_prediction_sha256": "811336ef48f8cd1c8c87123e216d9053675d6c9c3306a30ac5f7ca560d69c30f"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 29.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_1/2048.jsonl",
+          "prediction_sha256": "fc8c448f157346516e4112552d2e36750e5d4ee50920f452baabb0852b39bda0",
+          "original_prediction_sha256": "2852236aeab59fb22202cc01eedec7a52e26f998991ca38371619facd7a0da49"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 16.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_1/4096.jsonl",
+          "prediction_sha256": "680f27d750a64c9bd55a443e651e8b12bc5f05973535c3046498d9089c7f76dd",
+          "original_prediction_sha256": "2f8a96ff3215a5b9c809cc0d0824177b4cea81fc6df2def030978589c0a8b08b"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 5.6000000000000005,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_1/8192.jsonl",
+          "prediction_sha256": "52c6e025993d22170e970360e2215976d66013eeb357b13e557732224e24b04b",
+          "original_prediction_sha256": "53476fc4d9ead7f8e9795757e630d5b148666bcb4c56e40eecabfb70f822e782"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 88.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_2/1024.jsonl",
+          "prediction_sha256": "f13a35988817da97870e35eb414ac1e8f28bbd2189f44b6ff3400e5eb517e29b",
+          "original_prediction_sha256": "56a10172b10ccfd473106c4e0d558e595b38290f61846e03cc73f34e71c058a3"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 25.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_2/2048.jsonl",
+          "prediction_sha256": "2986da968b157f137517eb9e9089ef4971556020b927315b9373498af77d8615",
+          "original_prediction_sha256": "c82ae1b2f55d8f314d289d62b4cfac50c77932771fe767c4b70c4070e914d19c"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 1.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_2/4096.jsonl",
+          "prediction_sha256": "ac4dc4fca28f22a7a8f0458efe9bfa265eb3df2e01c85239db3a6399e284860c",
+          "original_prediction_sha256": "e5c89d8580b444f9eea890ea56e7536f209282e1eb626714042109d1761b6f91"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 3.8,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_single_2/8192.jsonl",
+          "prediction_sha256": "0551e210d13e977752e28e28c6087f803f29f288767eed01b32d611c88332557",
+          "original_prediction_sha256": "53e040b4453d0b942ceafc739f1b66fac168c555b220db5c8f7496c32b0a1323"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 23.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "d3d4a31ccea8c9b351543d5746b361b68fccf7e94c8117554d49baeffedbd58a",
+          "original_prediction_sha256": "80d171b74990cecb4894713d56d85ccb0ac5b6092ddfa3d098f7f0d271ad0dd0"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 18.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "c06d2317bbdecba62b03be16b8e030797efa1250a85e4050c6ee76d30a1594cb",
+          "original_prediction_sha256": "f6981643a340bffc30eb173c17383a47c02950d8e8230367bd30f6cf497d9bda"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 14.000000000000002,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/random/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "3d6428c22f63d4b7b80c3078ee26a34d02e0c6f361f2130b6eaf76f9201892b6",
+          "original_prediction_sha256": "6db460f88c6d01ba253aba9a3b854802eedb8eac4eea4666a421fcec401e53e9"
+        }
+      ],
+      "average_percent": 26.38181818181818
+    },
+    {
+      "architecture": "kda",
+      "initialization": "post",
+      "directory": "main_kda_PoST",
+      "recorded_checkpoint_sha256": "f6be28267dc38fb84c4caafe9beba572ba861f7f4751bb5caa8218c07cb6155d",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 93.60000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_1/1024.jsonl",
+          "prediction_sha256": "07563258b0029109bc2038b56f4b17fd5562d27ec45e849c34c31496b7d5f316",
+          "original_prediction_sha256": "e12251031f69baf9e707e2185a07cec4b4b1ff05ecfd7d81474a3fd9b0deb412"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 72.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_1/2048.jsonl",
+          "prediction_sha256": "231c782801879286f6279226dd7804ba3d51d6e52147e1b9776fbf9b0d088d31",
+          "original_prediction_sha256": "c34a845ab8c51e3a3a695ce6bd633591cb1be0607dd829c15905a4d5dad9dadd"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 34.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_1/4096.jsonl",
+          "prediction_sha256": "dd206d41be31c39823f8ad91e8ef9833f0c6b06887c81e9dc3713bc1dedeb593",
+          "original_prediction_sha256": "c2f11264bbc2824f42fe6d66850872162ed2ed94f367290d2dbb2a1f3b13fa7c"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 9.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_1/8192.jsonl",
+          "prediction_sha256": "034b82969d38ebc848a96020e0262a1c28a7a9a1421d2e252bb60a56003d981d",
+          "original_prediction_sha256": "7293c235e6fc0313cd029ea9fcba3278114b89fd3b4a4b74cc8ee5977b715311"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 79.80000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_2/1024.jsonl",
+          "prediction_sha256": "87947c1026bbbe9296abb0581971c19ee2a9fe96ec8e72ee1ce2edf32d371db7",
+          "original_prediction_sha256": "b82a916b1b4261ec270e081c11eff87e9a5bc2f0a4ba31545c961bd7978f71df"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 16.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_2/2048.jsonl",
+          "prediction_sha256": "d5114dfb8fa2e8ff4de02128075db963acfff7adb413765bd542c8b5380b3db0",
+          "original_prediction_sha256": "bab900a62fd6cb6de9c1115170a69266d969b23e51870b88f7f9f03b8c6d0085"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 9.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_2/4096.jsonl",
+          "prediction_sha256": "30c88a3ab9c24ae9efcc592b6e9b56532e479f92d79013c34830263493696ec6",
+          "original_prediction_sha256": "88e36f50959af4af6abfac779f21717d6a4fad6579f97dc7128dac71fa1a3437"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 5.4,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_single_2/8192.jsonl",
+          "prediction_sha256": "1860203b10de32a71438de2769f06d56f2a65db097589b36c2a3213d46f208ce",
+          "original_prediction_sha256": "cfa93c610cdf14c12b439192714c9fd6e256f0805981870873f2e77e5fd83e9c"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 18.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "c2a7337d474db256303af290e31af6fde4637861e97617123ae0f69e081b5878",
+          "original_prediction_sha256": "013cea2d8a9815abf6d28612a76466a458dad20765d60d58150f367b21b60b2f"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 17.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "fac7af130f9364da8b32d06c4128fa4e228918c1e5188edce15279f7ef929881",
+          "original_prediction_sha256": "7bd13d3dda7c39d3107c0e47f1dc5367c2aecea7ab3b77c38a00bb696bb984f8"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 14.000000000000002,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/post/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "8899a75d1ecbb4d0549d89a8d39ec98105a629798f22d4edefa27aac6cc002b0",
+          "original_prediction_sha256": "826f369c1cceeeb0b28bf144b03367185a57ca8ddee0fcbe8e9037e2a2daa821"
+        }
+      ],
+      "average_percent": 33.67272727272728
+    },
+    {
+      "architecture": "kda",
+      "initialization": "dami",
+      "directory": "main_kda_DAMI",
+      "recorded_checkpoint_sha256": "c1ff8524598a136af2d32bf70001cd446a12a7f738ca4204877a7e11215c69c8",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 90.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_1/1024.jsonl",
+          "prediction_sha256": "8d9ed9879e7b204b800a49028de3bb3c473e4309bcb3699561da042a5147773b",
+          "original_prediction_sha256": "14e9b44aa88e5fbd755832ef3c12ce48ef153d92b4835bb86968998718b8d736"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 80.60000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_1/2048.jsonl",
+          "prediction_sha256": "bc5ac2de392d18cc7813744d4b3270482b58e479a54f3a673e90b3a9e5dfc192",
+          "original_prediction_sha256": "ae41ca2c45117c57a202bf9672b5eba2e187bb1712cde11d6cd7f3cc51adce11"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 56.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_1/4096.jsonl",
+          "prediction_sha256": "9dd21d706a27567a621dbbc0516771bcca95e6f8ed4554360b73b7801a679549",
+          "original_prediction_sha256": "f677f51f90c3099dd0aae6d001673c72d3e79e700ce2a409576b1948de087f76"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 25.4,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_1/8192.jsonl",
+          "prediction_sha256": "13fbac3b2bc19185ad9a9222ae30fe1d42f19d3f059ed258340c3f5f297695b5",
+          "original_prediction_sha256": "82f65321852d1a8296aabc2508e7eb44983ca7cff511b65e239ec5a529154702"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 79.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_2/1024.jsonl",
+          "prediction_sha256": "200ebfc0bacc07d88e2521641985b9eee1d5b0a8e7f8f4af8daa70e86ac0a111",
+          "original_prediction_sha256": "04299f5ddd3280aeb124b682a2abc33b0a7f2ba5edb02c8ee890c95648a7f4a5"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 51.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_2/2048.jsonl",
+          "prediction_sha256": "19531081bb596e402896fc5c2b9ef45d5469b09124baf5d172568e62d5249206",
+          "original_prediction_sha256": "d9c1ef47f8490973fe8752c6602f2d39b65a0f0224d78d1fc5a031f103a5fdf1"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 26.200000000000003,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_2/4096.jsonl",
+          "prediction_sha256": "3abe1fffe867370ea4fab12c9428c65e7c9589248b8dcab6075846c5b0c5527b",
+          "original_prediction_sha256": "5f566e457688f910952ab22cae8c6a9108b7c3fe4b3e37b61a834f5d37f9e71d"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 7.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_single_2/8192.jsonl",
+          "prediction_sha256": "7f28e95f92f30080e6600e21ea08173224b550a06865bb07e7964ea2cee37318",
+          "original_prediction_sha256": "f3dbef7afef18766462c6adfaa6fe7eb48fd485e04b7260c10aa9573611da293"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 21.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "903d4de8d1a3988cad7e06e539adcf4d4ed4a21a78b63f5720dd44b87e852bed",
+          "original_prediction_sha256": "da055a64c49e28bc16826b6be2fa643e9a199e4dd6b8a3647600311aaf49c251"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 19.400000000000002,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "44b0586dc3069c2b26734c7c1045cd26ee63774833e6d5305c122908420aca7d",
+          "original_prediction_sha256": "39f3fa5d44880e1e9df51e739f043f594f3d6b54e61bad76739d9e23029cf88f"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 15.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "kda/dami/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "078fc726d48d540e91b06eae979bb9965e2a8e078bdf364d2e8c63528c017bc0",
+          "original_prediction_sha256": "87302eb8f263c419adcce146b7181920fe520a06ccce6606f9d204863127836f"
+        }
+      ],
+      "average_percent": 43.09090909090909
+    },
+    {
+      "architecture": "gdn2",
+      "initialization": "random",
+      "directory": "main_gdn2_random",
+      "recorded_checkpoint_sha256": "c6bfa974dec7c458b14f394d89ac33cee41086f3d7beda2bb6ab058652d7a875",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 88.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_1/1024.jsonl",
+          "prediction_sha256": "1c7607778c6c0e5d03b6a3f71d5311021eedbf586cc5b9370e88083a6d8f624f",
+          "original_prediction_sha256": "a11b8332e4d7f9ebafb8a03724b99b6532fec2e4a56a038e3ffb4c804bb9d90c"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 51.800000000000004,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_1/2048.jsonl",
+          "prediction_sha256": "fe4688e1bdc2ff0870ec7ca85cbb86510a5e7d37433eaa89557febb6a3a23d32",
+          "original_prediction_sha256": "a53919427f5074ee11927f31f592adfccaf39c15ebb160e3b80ebf34300bcff3"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 16.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_1/4096.jsonl",
+          "prediction_sha256": "4b863bc8c6d58cd6ab19138575d67de6807444728deda4ed51d0a44f6f81bd85",
+          "original_prediction_sha256": "6b46d42e7a9d614e80bb60e595d6c54ebf4e1b53b4ba7b9fd7c130e3889f4ddb"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 2.4,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_1/8192.jsonl",
+          "prediction_sha256": "dd1075c8e8b095e148761e27f846475fb109179be50b425a1e40d283b270c74c",
+          "original_prediction_sha256": "22f9073418ceefedc241acd9ab3aaf41636146b3c51d3059243d61034d1bb7db"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 80.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_2/1024.jsonl",
+          "prediction_sha256": "708da0dfd999b22c9349be19beb091e047260fb58e622edf34da8ce934c195a5",
+          "original_prediction_sha256": "1f78e76491cd6b1e6b8094cede4baf2f1e75e87a3a40fc97aa1b37087fcdaffd"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 26.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_2/2048.jsonl",
+          "prediction_sha256": "c6b89a42b483b19c6d1a47c175f9a3d22d1e95057524aab1028e8b8bf54dc799",
+          "original_prediction_sha256": "9ef69199e4a4cddfb48c03dc27926192afa6815f345a77815e6c2b17ed8b66dc"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 11.200000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_2/4096.jsonl",
+          "prediction_sha256": "9ddbcca45ab643aa15d8a7354ea0af61b0eaa720972c2007062d5324789da252",
+          "original_prediction_sha256": "e5e7152279b8ad9de2dc7703d631cc7d72422d92656b6fe87677d408b569ec29"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 0.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_single_2/8192.jsonl",
+          "prediction_sha256": "9202a231c19740b282ee03bbb7c04f1d0380d962d6d5f51e68566df75153b04e",
+          "original_prediction_sha256": "982a2183dd31a00dedfe99352953b6c73eb437f4cfe69d29c36b8618382a3957"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 22.400000000000002,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "abd674d7301771ffd98d83ed97bcca7706bcf6b6acdbe8081fd2ddd8347db438",
+          "original_prediction_sha256": "b3eb59b19671f2e0daded4c102c95e8b70392abe8c67ddf9d2023f3fc5ed7fd8"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 18.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "adcbfc033695b3ead8c68975306ff0f5bfff9328f0838bf3687abcd07a80ece5",
+          "original_prediction_sha256": "e3eaf6c64917992eae2b48e969019a80156a2d86da331f0dfb3407076a2e3955"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 14.000000000000002,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/random/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "e1876edeacaf30bd99cd4380849464f80462ff255c2f48895825de36e22e507e",
+          "original_prediction_sha256": "853cd9be13298ec179ba055dda32ace6d8430eb335c1985379e4035e898e0a21"
+        }
+      ],
+      "average_percent": 30.272727272727273
+    },
+    {
+      "architecture": "gdn2",
+      "initialization": "post",
+      "directory": "main_gdn2_PoST",
+      "recorded_checkpoint_sha256": "893d33dd84873b17586298a2ce3f34736ad7bebdcd2098042f13d25e61ee407d",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 96.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_1/1024.jsonl",
+          "prediction_sha256": "822f1373af4c42e6f01c0187e98764cab763870150e565fea824667eac12c331",
+          "original_prediction_sha256": "c9b201a76699b9e2b0e549ee34d5ac82eff0d7a6cb50484486ad0c15b81db0b1"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 82.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_1/2048.jsonl",
+          "prediction_sha256": "059f28220b673d7e32c6c143f0a308f2e132723263ca3d8f2ebae0744e82d361",
+          "original_prediction_sha256": "c30dac1387d52e98fb628df11941cb00a370b87204ad5633f13e5a0a87d3de1c"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 46.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_1/4096.jsonl",
+          "prediction_sha256": "fdff2ecaad51f87656c9fc1e43ad87cc03143e22d993267d222f76dc1f2a18ca",
+          "original_prediction_sha256": "05f6df94dcbb5cf563adca53ba7794c8df6c5723701626937769c6b7fd31a1bd"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 8.799999999999999,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_1/8192.jsonl",
+          "prediction_sha256": "340b439838e7368fb18d1961c6ce2c9fcf3f92af86167b685f7434f73d3dcf65",
+          "original_prediction_sha256": "920696865b51402597a22dc59e2a47301694b92687538a911cc0be7cdc7aca8f"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 40.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_2/1024.jsonl",
+          "prediction_sha256": "2a4785e4ccf50cdc08556af15a19903c54c5364014ed581d1a11e6e6bec34ad0",
+          "original_prediction_sha256": "b1fb57f3450e7051e5d6457e5edaeea74a9cd806aa9b92acd91a7b7c41e1d03a"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 34.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_2/2048.jsonl",
+          "prediction_sha256": "d08bf6188b872b931db65f7148d5d145327280a20c5096b1fdbc6952de20455f",
+          "original_prediction_sha256": "ffc7ef92189f11922852af13c4fe840a1f457fd91feb91420dbc2937f1334cd2"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 10.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_2/4096.jsonl",
+          "prediction_sha256": "d9001d536edc3a86a41bd8f5ac1bdb732214e56aec23001e775cb36347d54ab5",
+          "original_prediction_sha256": "789af25847bd83be59c743347b7f6399c241650ec8b761b2b3dfc35dc9a5fb71"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 1.2,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_single_2/8192.jsonl",
+          "prediction_sha256": "a30c727296e7a96992e6ef132ff57b0b9afbb39b348dfce25a37772149fbc2ce",
+          "original_prediction_sha256": "bb730666f07e15b073a5447fef770f7e4aa8299e1e45fba71670e60835dd30ca"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 22.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "fdc92d764a6c1930e5c899e69ebe6c3df517b01d68a34e1ee13dd9dfd2685a7a",
+          "original_prediction_sha256": "6d14cf499e80195597001a07b5ed66d63f4ecd81a389d396e9523647394c5954"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 16.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "94d7fefe0ff775660a2f8314f097acf317e168dada4a03fe666e1cb0c8739e72",
+          "original_prediction_sha256": "d25a51d82ffa079233112033e8f6786fcdac7a1e56032b816b13643761c1e50a"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 10.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/post/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "48f896f12e58d815ec139c09792cd480846e89ca055d9ea359aed7da48ce05e9",
+          "original_prediction_sha256": "6e29dc8b65432128e96d28e377f1b8e58d25d95b936620836663293cad00c0dd"
+        }
+      ],
+      "average_percent": 33.47272727272727
+    },
+    {
+      "architecture": "gdn2",
+      "initialization": "dami",
+      "directory": "main_gdn2_DAMI",
+      "recorded_checkpoint_sha256": "e5e93f40b6c97da4ca97dd039a2398db8b9db91d483336590735be783cdc1bb6",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 98.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_1/1024.jsonl",
+          "prediction_sha256": "3f01ac96fd237e91d0a9f257343468a9ae46ec4a65a371104686312710514fb3",
+          "original_prediction_sha256": "90570a82ca9bc720b3828118e6a54065aa0ebb05f49bbc8323782ef9b2e38290"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 84.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_1/2048.jsonl",
+          "prediction_sha256": "5b10a4cd66ac892e6c521029bb5e63cd9acdb4b4c54042cd6463e80249adcf68",
+          "original_prediction_sha256": "49b3a4aeee37e7efbddf3e45393eb65dab7272b0d9a7ef37e5494fbe9905c89b"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 45.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_1/4096.jsonl",
+          "prediction_sha256": "c9bf752d091c3f14994039854cecbf1729cfe51f569571582a4c6e0c0cdec90f",
+          "original_prediction_sha256": "12856c5b4752c5faffbc2b090570b54c5bb3fa888829990a9b339cbad53bbe48"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 12.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_1/8192.jsonl",
+          "prediction_sha256": "047529c3136d0f3aea0d6894b46e420acbb76b07f175d5258f8db7c8bbf0125b",
+          "original_prediction_sha256": "fc71978fd0d369e30136371adc4e210761fb6ac37a99008c79634a9cdffa01c7"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 70.19999999999999,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_2/1024.jsonl",
+          "prediction_sha256": "02a598fbcc1c4f29f2398f2b865f210e4df9d409907869dee12be1182f112fee",
+          "original_prediction_sha256": "be2d3fced4278bd71db58e29833ff1704dbc544035a41c7c116616c70a9c6908"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 71.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_2/2048.jsonl",
+          "prediction_sha256": "26e891f4cee66a8c639658f7f3dd58903a1d8e896f029b9da93357af930dc6ca",
+          "original_prediction_sha256": "4f580d74a0269223b846ec8fa38bbc2852c718750b1c6a7b63396e0850ca61ce"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 28.999999999999996,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_2/4096.jsonl",
+          "prediction_sha256": "9cde1269406e7316e1621b52f01044b41e1c2ee87921affc4a01808fafe32015",
+          "original_prediction_sha256": "752dd178c9db5e8bda1f5fc81eccc51072744bb1ca046e09a8e7388e8f2f5469"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 6.4,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_single_2/8192.jsonl",
+          "prediction_sha256": "e134da53d3f8c137f358abce0edf562bd1ff5e73ee075e35c5aaa2be39ece2a3",
+          "original_prediction_sha256": "43ffc4a243b7adc406e0fc0e3c4392c1208d3df1f6b14c05eec1ca88d0edc60c"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 23.799999999999997,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "1f1a4948c28644ae7dbdef3910916e103f1efb699d9f60ef464a826d02e116c5",
+          "original_prediction_sha256": "45d2a78652b46764057ab22316c11820e06df542186d3590fdb22118f2d45413"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 21.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "e964fabab31ca5ae2b7dac8ce5a9c6d053da2a0df36c81628176e35702bf3bc7",
+          "original_prediction_sha256": "ad3de3f41a3c1da12ac05fddcbacc91253f5a56309243cad85a66fd78ca553c4"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 17.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "gdn2/dami/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "2cede41195b0166c0a9f6176a4c820044148b8fed0ab0aabc390bcd917af71bb",
+          "original_prediction_sha256": "905fcf045b2ea4140b1dc4dded10ae9bdc067e6aea29cdd4f6629875a04c26a1"
+        }
+      ],
+      "average_percent": 43.709090909090904
+    },
+    {
+      "architecture": "mamba2",
+      "initialization": "random",
+      "directory": "main_mamba2_random",
+      "recorded_checkpoint_sha256": "1aff0fae2b7dbb107c9dead4741f3909107c33dd274cc1f910e5702c0eb4e79e",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 22.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_1/1024.jsonl",
+          "prediction_sha256": "e56cc14d1231760cfc65eadd1c0256a0d0d34405f955678b8ae34db330bd1aea",
+          "original_prediction_sha256": "976f453d237421ab004e5c80dd9b2b0837ce4bec30fd625b70051538efda1ab3"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 5.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_1/2048.jsonl",
+          "prediction_sha256": "ddc3c2b798b631113b3fb6b86956d7ac5d08fefac862df66843f652c2aa611e4",
+          "original_prediction_sha256": "d60cd4f0377c31f1e4d222da67029876fe3ce1c6722fc7c0279a7a5fa457a9a0"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 1.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_1/4096.jsonl",
+          "prediction_sha256": "c72d20b6a7cf6b5e8b04d00e54f31191746c4b2053189041df2d93cf257bbe5a",
+          "original_prediction_sha256": "1b77403aa9b2ebe02d12a97e21e7bac9ff68e21005860dc37c327277532b873f"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 1.0,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_1/8192.jsonl",
+          "prediction_sha256": "df00d83352ce63b44cf2e5e06a1b3ec6c8050b917f6bf3b84467816f8ad2ea1a",
+          "original_prediction_sha256": "1db3e032e3d26ae5b156e0cbcb677fb48d17c7ad4ba67803fc43c7c35f1cba0f"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 37.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_2/1024.jsonl",
+          "prediction_sha256": "8cd44f6750fb2a6a445a607cd5503afcfd1ab075d2a17a76358df5f042370510",
+          "original_prediction_sha256": "16d70bd6269dfc74b4798dc003466a998f401102ed4f71d5823250a9306587d0"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 14.799999999999999,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_2/2048.jsonl",
+          "prediction_sha256": "502fcd42caab45598dee6d5381ff55d153c420f16260327d85245f9824df069a",
+          "original_prediction_sha256": "e3d613fb79db45ee2d88f7875170b84b1a592dd26a71f70be6573de3ef5790be"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 8.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_2/4096.jsonl",
+          "prediction_sha256": "67dd05b13a45fb21ca3375310c1818f78a0e90ef48bf8c62fa75d8f27f0022b6",
+          "original_prediction_sha256": "9d788dc52979693fb38b60c4c1ae0022b43c76d874c5780f8d6b31a0a2c2d91c"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 0.6,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_single_2/8192.jsonl",
+          "prediction_sha256": "7162047dcca3b81d4a94f5d7b06940bfb65ca10979ee6964c5d20638dee21aed",
+          "original_prediction_sha256": "8bee573efce47dcd444bc04213987d224044776ef9a389065a221f36bce9eac2"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 5.800000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "117bc40888672c72bd985d6556b0a07511766876a4dbb7970a61924d109a7619",
+          "original_prediction_sha256": "c2ed565e0afbcdd6727fef645bbf2a055dec08bfaa854bff91b7f5715a8890b6"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 6.800000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "81b780fb58901e41b1d7b00b8730f617c95a401928ae672a35f39e0dc6a30023",
+          "original_prediction_sha256": "fbee7a03f5008145113cf03ca21e3645a2ca55068968aadeeb4ab26d31f7b095"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 5.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/random/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "c7371d80bfb0788c85419e76af7ca5373835f1e1ef84ac558d5b2a61ec4a1a46",
+          "original_prediction_sha256": "547fee73c2dd0147675bdd280f85b9de8f4ed774a4f569de4fdc360ef1938d42"
+        }
+      ],
+      "average_percent": 9.945454545454545
+    },
+    {
+      "architecture": "mamba2",
+      "initialization": "post",
+      "directory": "main_mamba2_PoST",
+      "recorded_checkpoint_sha256": "7034706c1fae943a67bf58eef602056da23cbd4dd98d975564612c9b179975d5",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 24.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_1/1024.jsonl",
+          "prediction_sha256": "334f198ecc37e9238f7adb50acfd6f39ab556ee04003fe45c4ce8dcd2eaa207c",
+          "original_prediction_sha256": "2aad4e104a1512c875398d6d6daed289f5433594c1e92cb7507da8c3fb32e665"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 8.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_1/2048.jsonl",
+          "prediction_sha256": "7132c2e89792885c0bea9ccbeee5c71dd77f6db5dc77489ee791531ae22fe87b",
+          "original_prediction_sha256": "5cb8fc5a48fe7a2b76af2fe59ed7c88d23ad2e4a13322941e2cad1cba54dcf4a"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 2.8000000000000003,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_1/4096.jsonl",
+          "prediction_sha256": "fbbc9eb2a766e2529b15f39b21281e42e0c5581e018f2208baaa2804b949cbc9",
+          "original_prediction_sha256": "451b0c1121e2001ebd9f0fda5713d568c0ecb10408a8a0980dc0bdc807ed2a60"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 1.7999999999999998,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_1/8192.jsonl",
+          "prediction_sha256": "0c89127ff909a1935e9e4780e7aaa35ff70e89d79f2e5ad5098b14dc6aa1e28b",
+          "original_prediction_sha256": "c2e136bb7b7a9b408a5cbb5b9c82c3aa035abc2f21abd19130c902270560b2ce"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 64.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_2/1024.jsonl",
+          "prediction_sha256": "a093e1e4485e3add69d413fda3568446109945da124e9ef3e7f89578959b241d",
+          "original_prediction_sha256": "903fa103209c42746b2b09b7fe48ac979214b12bd913dd40ec9b5c3e159f880a"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 27.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_2/2048.jsonl",
+          "prediction_sha256": "151750f8962bce71b4a671134315deddc973b16c35030f7500377fd321cf1c1a",
+          "original_prediction_sha256": "beaf3861b155ed567e96deb31d5a4aa0995a8b4b58bd5178b84f457fff402587"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 6.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_2/4096.jsonl",
+          "prediction_sha256": "206757a4163e3c0045e9a2230fa8088bea111921981194936188e5f50804a80a",
+          "original_prediction_sha256": "8c1c5285f8278367ed2613efc41277d701238290ba7b690cb7236f890270b159"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 0.8,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_single_2/8192.jsonl",
+          "prediction_sha256": "1245ce792eb06113101dbedafc80bded92f4fc1c2d1a8b3a294cc2c5fe7ab0bf",
+          "original_prediction_sha256": "c579a1d69f7dd32a7cec99e65d2f88714a59759a3418fa0c6547a4b4b248f43c"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 4.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "591972e5e35ad2e35c3b51d1aab000f49140a257b1f7250dca5fad03b56c70d2",
+          "original_prediction_sha256": "aeff9a3dcc9c85c7f27a9ac68a70518d0bcdd182ba9f1f3d4c9f0c2012e70020"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 6.6000000000000005,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "c30844c5416c9c0515534593555cd433bdc6412f4e4224390ecb73780c9fe325",
+          "original_prediction_sha256": "ec603465db506cadd06f0a5cfc6910a7edee3aea6e63848dc655f5f713402187"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 3.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/post/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "6bceed7fee77229061642fb2a0b6200b6208c5abf47f584b0d389c9bca413f53",
+          "original_prediction_sha256": "b7214e78a635349c11d7a2859118fe13e0cff4ce5911d369e701733cb68e2b2a"
+        }
+      ],
+      "average_percent": 13.727272727272727
+    },
+    {
+      "architecture": "mamba2",
+      "initialization": "dami",
+      "directory": "main_mamba2_DAMI",
+      "recorded_checkpoint_sha256": "1cc2b9b0acd06f27717d2079ac2e1aa2d08babeb9c45fa78d559715555a2b2be",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 81.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_1/1024.jsonl",
+          "prediction_sha256": "d2d633b29c83de4096b70d0ec0b864f5575dbc78b89f409d268785022e9b5e10",
+          "original_prediction_sha256": "5e262622428b4c0434a24683b03f02a617afd914c7b5add2f664f0009a4b4eed"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 30.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_1/2048.jsonl",
+          "prediction_sha256": "041a4ca98db10c80e1f0ef3c3bbf32af5f85445077c1dc269fcc044ce8c00261",
+          "original_prediction_sha256": "4e4f6dbfcce4fcea4d9b4370ae97704955c9634008515251ae82070f7df681c2"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 13.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_1/4096.jsonl",
+          "prediction_sha256": "20d4987fa7cc0feb8d446c8b1cac9d28a33e2fef15a1a08811c57320265540c0",
+          "original_prediction_sha256": "cff4f615e2c40709aaf2764a390256082248333ba3203fa01c7b391de18b8225"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 5.0,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_1/8192.jsonl",
+          "prediction_sha256": "4e5046f5172842f56d92c4fb732a5c331156d38f8481c87a9dd0119bb45691fe",
+          "original_prediction_sha256": "26f7eda5eb96a7c5cd4d0a70c95508bddcdd07341f86d9297d2666857e0b12e9"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 69.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_2/1024.jsonl",
+          "prediction_sha256": "ca0e40f2c68fa0bf66a72d899515b6723a611a6e59557a6a0be3adb2408853f0",
+          "original_prediction_sha256": "2e6bdbdc23dcbdcd085394192b6737be074ef80c33bfd4d7a433026dd93d17a3"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 26.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_2/2048.jsonl",
+          "prediction_sha256": "855d2499069c1501797b4e222e904256c3dbd5b741b24ff9a2788432e6441e23",
+          "original_prediction_sha256": "7d0650e913878fb35d6e31fda350fb29dab4466059ff08ee53a5b7cabe7c1c17"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 17.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_2/4096.jsonl",
+          "prediction_sha256": "5deaef4a4b71c6c73c26220e81dddb03c56e6b0106e37b48c1037773ac30924f",
+          "original_prediction_sha256": "352979794f765c800a50b93856eb4587a0f9aa7a594cc83a5cde1238f78b1691"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 3.5999999999999996,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_single_2/8192.jsonl",
+          "prediction_sha256": "bc1524f157562fc70d20f359cd211f358c3f6b9583f2a052f6570ba4ef5301a4",
+          "original_prediction_sha256": "b85360345f0209e2b4cd44f662eec1b352b62e11ca127b508e226b4988895151"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 5.800000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "479ff4c0f43c8993125af6d53a5410e62973f66e0e3321cd9885f22041642ff4",
+          "original_prediction_sha256": "82c3d497f30121d1f52aeaf775e70ca059e2a1b081be2b7a355b14ba7d3cc646"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 8.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "09314ffabd404ae914202452c27c4a9de6481aef708b4feac6d5d33fb4f42dea",
+          "original_prediction_sha256": "90a95de131464be6f8a5b0b87cfaedc4405298d46820c56f30e229afb6adfc9a"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 7.199999999999999,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "mamba2/dami/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "666d21b09c5759141d28c6ae2f7318cb987fa3279a373666ad2a4626a35d0147",
+          "original_prediction_sha256": "6c9aeeecfaf0b56438e89a59d019a70948a68f633c2d3413d1e53f077afd7cd3"
+        }
+      ],
+      "average_percent": 24.418181818181814
+    },
+    {
+      "architecture": "rwkv7",
+      "initialization": "random",
+      "directory": "main_rwkv7_random",
+      "recorded_checkpoint_sha256": "3c9eb4b5eaf370f07f8f81bfeb7e9640e8a6b9b3758a62542dd90991cd251b9d",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 27.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_1/1024.jsonl",
+          "prediction_sha256": "5f1acb23b3460aa3deec65b0424672d9d98dbd63224a448cd3167f4995e053b7",
+          "original_prediction_sha256": "c57eb28b3ea38bf28b5a01240305a328b33bbd0a615324163acfc68600f7fa7c"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 20.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_1/2048.jsonl",
+          "prediction_sha256": "a0a903f7bb9ec94803f7e90a95df4ca29679aab36c0d5662f80e034da6c33c10",
+          "original_prediction_sha256": "6ca80c1c1feb81da2c5c7f3efb0c61fef5334c83812daedf8400ce1192bee14d"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 12.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_1/4096.jsonl",
+          "prediction_sha256": "62c192d9872db4791506be5b685479acf0bdb927822a3198052769463117774c",
+          "original_prediction_sha256": "03ef2f726f1355470b0f30f5d30a49c3b19609515d6c601878259cb5bc3425a6"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 4.0,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_1/8192.jsonl",
+          "prediction_sha256": "3e36bb2cc5960f4ce6a30ee7a018295504241823183064b990769823ee1b4fab",
+          "original_prediction_sha256": "35cf979132a398d7b6bc99ce295741bc54e4513f9c38c6f64c4158a258a46992"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 81.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_2/1024.jsonl",
+          "prediction_sha256": "92f0328958749f32daf46d41d20620f09f6e0a1c53c209a194a62fbce6a621b4",
+          "original_prediction_sha256": "24f564140031a0b144f08f5646061de40cb04019309dd3970ffee069e9006e4c"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 62.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_2/2048.jsonl",
+          "prediction_sha256": "4bf689db0f26541865288f1ebfc5dc5ade44ca1dff660ad2b8d6baa91a124536",
+          "original_prediction_sha256": "ba9d8018ab9cd44cee73c98814b8246bc2fc50193fbe0cad41ff264da7e3b1f2"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 14.000000000000002,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_2/4096.jsonl",
+          "prediction_sha256": "a11ca84b727057d272d3f82ad641cd5b25c1d7b7b4bbf9408cb778dc2261bd78",
+          "original_prediction_sha256": "46235a506702cc189c7e83ef66fee3d463faabcff6cb637cceeaee471b0184cb"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 5.6000000000000005,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_single_2/8192.jsonl",
+          "prediction_sha256": "7fd7eb1be5a6775305c457b37f96e120c60ccf2882420a906a04008c80d9c0f8",
+          "original_prediction_sha256": "8f7010b66809b43db637186d2455cd0823e90e59f6215b9b62c89a5fe04165c8"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 14.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "732b067d22547c080246415fb55027cadfbbd202121fea85905245338d7db597",
+          "original_prediction_sha256": "8e5a63b443fb879b9a4f2c5ff5a0c78e6f66a6c0a6b56b1df8f05cc1c82ca8bf"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 11.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "1e5e13ed76ec0dc63809da94345cb3a8a2383f72e246f816ccfe3536f1400e0e",
+          "original_prediction_sha256": "303595f45e7ffda43c0300f13bfe02aa3a6032cc6f8bf64d62e7d87ae404b1ff"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 10.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/random/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "1819693c89d362db1769477b8d6a2a1bd663fe601c0d4e4b2ff5d8c3540d81e5",
+          "original_prediction_sha256": "48c8a47188e433547740877c893d2bbabfc344c35d9583372f5005a2bc90ac58"
+        }
+      ],
+      "average_percent": 23.872727272727275
+    },
+    {
+      "architecture": "rwkv7",
+      "initialization": "post",
+      "directory": "main_rwkv7_PoST",
+      "recorded_checkpoint_sha256": "bcfac188974aa3cec0f431032bde7e5d3bb57f561b5873852ba98b4cf49c3063",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 42.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_1/1024.jsonl",
+          "prediction_sha256": "65aae8cb40538f2ec9f63fd43bbb86c28806c85b001628244e41af9802ffee54",
+          "original_prediction_sha256": "8e1f8b7eb00ebc9a7b5bce35b5e769aeca1a284af3bbcf4dec55f4282ff7f9f6"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 14.399999999999999,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_1/2048.jsonl",
+          "prediction_sha256": "9fed2d55ad562ae9b6de2581ce0aae56949da3d4052ff3d0fd0a949699963100",
+          "original_prediction_sha256": "a36099554d562ccaab0187d69ab224cc2d634ae543caf217cd0873c89605f399"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 20.599999999999998,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_1/4096.jsonl",
+          "prediction_sha256": "c37f630df90cc5e01f12229fe229174cd81ba27236f1f1b6c082667951da0053",
+          "original_prediction_sha256": "c558d5258c04127c2dbc88e92fc22fdd4085b09c63d2da1d38cfa6e6bc1bc2fa"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 8.4,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_1/8192.jsonl",
+          "prediction_sha256": "9b33d882d98e334cce46942af9aa66a27253aaddc6eb651339f23f8865f1c2fe",
+          "original_prediction_sha256": "78d2f32308b85f5ff648fe93093eb093887ddd2fbd4304ec7a765a542fb86f53"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 78.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_2/1024.jsonl",
+          "prediction_sha256": "335d19a1a16eb598c6c3badc3a3f1cc32135314bd9f5a7ea36de9236b9e431d1",
+          "original_prediction_sha256": "d59e2514bb2549a95e14dce25e2da658c59aaab9082f32140819f4fb162e9bbc"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 20.599999999999998,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_2/2048.jsonl",
+          "prediction_sha256": "b6145e1a1fee3b6e52803b83cd0bf0d0b3756dece5ef9ed6ea6ae1b802e18dd1",
+          "original_prediction_sha256": "6b70b85dee00b606205ddf0c1e386704d3080af2a8d55494183053b5f20bc4da"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 4.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_2/4096.jsonl",
+          "prediction_sha256": "3b6dffcaf7e44c16916927c233998e91cfc78ec368b8549b937ff51c8321e53d",
+          "original_prediction_sha256": "3e3d2d2e3e0355aceeaec3a694981c5cfee440b73593f94b2a089b73d7849313"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 3.4000000000000004,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_single_2/8192.jsonl",
+          "prediction_sha256": "3e4dbbf46d57a38994979a7df7515f244e262444a043043260ff0757cec0cceb",
+          "original_prediction_sha256": "85a293a5b1f08d3240f9e59e572b303c74da1bba5c3a8ec83b1e333c4293b456"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 12.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "90c023234fc900ca5e8f162d8f67bc6cefe95f912c734602a0469c7acc66b628",
+          "original_prediction_sha256": "d2865b75b3fc540d80ead5419626b5e1a3bb2387588543632280e91e78bf06ae"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 13.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "d9a28374abac9e74bede02075c44e0b953165dedfb5ba110dfcbf75dffa0910b",
+          "original_prediction_sha256": "600b959ead7ae077718f699be1bdaa3887231c84eaa693acf8494424be1ecbc6"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 9.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/post/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "3a3d780f2baf2f41a38bec3c1f9aa1e14bda19cc2f2d0c38189661d451c93fc1",
+          "original_prediction_sha256": "351e23159d8bfce35e4cf7fc58bfd48206fe6ec273204e9af063a64339ab313b"
+        }
+      ],
+      "average_percent": 20.69090909090909
+    },
+    {
+      "architecture": "rwkv7",
+      "initialization": "dami",
+      "directory": "main_rwkv7_DAMI",
+      "recorded_checkpoint_sha256": "8af61f8cdf96f7fdc977364cc4f798eae46829e38411035aaa84f77851e3c9c9",
+      "hash_provenance": "Recorded in original paper package; not recomputed by this data collector",
+      "cells": [
+        {
+          "task": "niah_single_1",
+          "length": 1024,
+          "accuracy_percent": 99.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_1/1024.jsonl",
+          "prediction_sha256": "c954ededa1df405c22cd3e3e61ad535ec3b24d1c5c0078f0ddcf63ed0221d5c1",
+          "original_prediction_sha256": "afe576409b9c292e53b91d01107649c8bb2c2aabba0f187054bd3f3c14dac0d1"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 2048,
+          "accuracy_percent": 46.6,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_1/2048.jsonl",
+          "prediction_sha256": "6c25ed5c73e0dd62fd5efe7bfece47c8abcb7a072481fc539bae4b2f2f4ac996",
+          "original_prediction_sha256": "8ffe49b69c603dc4da277bade843eeb48ac199ac7b183bffd3514bb8823fe445"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 4096,
+          "accuracy_percent": 4.3999999999999995,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_1/4096.jsonl",
+          "prediction_sha256": "7ff5b2234878ad425ef04b6349d082b6e6394283a1d90f5d11ac5d1d28cafa4e",
+          "original_prediction_sha256": "0e7cc3a1556daa796851295742bd1538eb6a27e8ea3eb2b98285e9ea06157ebb"
+        },
+        {
+          "task": "niah_single_1",
+          "length": 8192,
+          "accuracy_percent": 0.8,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_1/8192.jsonl",
+          "prediction_sha256": "d32c1572643cad52eb48e7dbf6f5f2c120a3cfa45942707e9ebbef9a7ff0db8c",
+          "original_prediction_sha256": "86f662cbcee5ebf5392fc3b327d4cb3aa372146493e5406a28e4e1981752164b"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 1024,
+          "accuracy_percent": 72.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_2/1024.jsonl",
+          "prediction_sha256": "0cf2385ffdc23497eb9c36e566efb1e3762618a70003025a7d022531b880aa78",
+          "original_prediction_sha256": "6a98b51925759cb98e5b8808f1ed98a08d1e4b4cd652680f1fbd148e85990c3f"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 2048,
+          "accuracy_percent": 37.8,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_2/2048.jsonl",
+          "prediction_sha256": "f6813ffb9672267ac7646baf1436157b05c362970cb75eaf9b8df52c29d592be",
+          "original_prediction_sha256": "3c5d878a2faa1f3a9034539131111f65abfa238113ddc0dc74045952df985fdd"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 4096,
+          "accuracy_percent": 11.200000000000001,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_2/4096.jsonl",
+          "prediction_sha256": "1cb4ddd74622a51cb6077db2c002bb23c61b62263ed6948107ac6cf5886dd7a2",
+          "original_prediction_sha256": "30fc11c0a8df930e078cb4a1a921cfcccaa7cc14225c944a8a60c26273d38e15"
+        },
+        {
+          "task": "niah_single_2",
+          "length": 8192,
+          "accuracy_percent": 3.4000000000000004,
+          "samples": 500,
+          "batch_size": 64,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_single_2/8192.jsonl",
+          "prediction_sha256": "812952cc66013514d79f8d52794864f73bc554f54570b1c1916040573ee4fd7d",
+          "original_prediction_sha256": "bbe2305a1fff659402dbe8a3aea3ac35fa782e0b28e781017e9662416b09a7b8"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 1024,
+          "accuracy_percent": 19.2,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_multikey_1/1024.jsonl",
+          "prediction_sha256": "9a16f0582ce7f7fcaaf686712b1ab240ef75a8293e30f7d4830638d680c215eb",
+          "original_prediction_sha256": "2a4d7ecc797a16cf6e00bdaa8093454741e63e64b8dd66bdd3eb9b229defee5c"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 2048,
+          "accuracy_percent": 15.4,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_multikey_1/2048.jsonl",
+          "prediction_sha256": "38387de26b281bfbc66096d7360c7333c23fe45dc5455c0481a874d65c373249",
+          "original_prediction_sha256": "f9fa6a22fa91c457ca136a9bf30c374ec72b280c27028043a52d04c7d5a66dd5"
+        },
+        {
+          "task": "niah_multikey_1",
+          "length": 4096,
+          "accuracy_percent": 10.0,
+          "samples": 500,
+          "batch_size": 128,
+          "generation_kwargs": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_gen_toks": 128,
+            "until": []
+          },
+          "prediction_path": "rwkv7/dami/niah_multikey_1/4096.jsonl",
+          "prediction_sha256": "5087fd9f2ec4b045a032aff7f980546375dcfe66043341682370c36a6d038694",
+          "original_prediction_sha256": "aa0a7822787286b950b2dbcc519e03ab2d722f9f9345b6bfd313b200dcbc4c7a"
+        }
+      ],
+      "average_percent": 29.163636363636364
+    }
+  ],
+  "scoring": "postprocess control characters, then case-insensitive answer containment",
+  "max_new_tokens": 128,
+  "prompt_transform": "standard"
+}

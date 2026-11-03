@@ -1,0 +1,46 @@
+{
+  "data_snapshot_date": "2026-10-27",
+  "fla_commit": "f7c2c1912da445301e0191c9d1126cd01674eb50",
+  "reference_sha256": "50938c1239c75564d96d1d9e6947a64f4b32548aba3539e2e87dc385d09c0704",
+  "origins": {
+    "gdn": "Verified controlled GDN DAMI initialization design: full-precision calibration targets applied to shared Random step zero",
+    "kda": "Archived DAMI step-zero memory tensors",
+    "gdn2": "Archived DAMI step-zero memory tensors",
+    "mamba2": "Archived DAMI step-zero memory tensors",
+    "rwkv7": "Reconstructed from final 20-layer mean-sigmoid design; checked against archived per-head initial CSV, not a binary weight export"
+  },
+  "calibration": {
+    "sequences": 128,
+    "sequence_length": 4096,
+    "batch_size": 8,
+    "seed": 42,
+    "activation_dtype": "bfloat16"
+  },
+  "training": {
+    "steps": 9537,
+    "global_batch_size": 128,
+    "context_length": 4096,
+    "tokens": 5000134656,
+    "lr": 0.001,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "eps": 1e-15,
+    "weight_decay": 0.1,
+    "warmup_gdn_family": 1000,
+    "warmup_mamba2_rwkv7": 2000,
+    "minimum_lr_ratio": 0.1
+  },
+  "control_reference_sha256": "7c91de3c384f34331c76379279d1f292fe9fdc3f68d02e4d49fd9ac53bcb8480",
+  "control_origins": {
+    "kda_random": "Archived paper control step-zero memory tensors",
+    "kda_post": "Archived paper control step-zero memory tensors",
+    "gdn2_random": "Archived paper control step-zero memory tensors",
+    "gdn2_post": "Archived paper control step-zero memory tensors",
+    "mamba2_random": "Archived paper control step-zero memory tensors",
+    "mamba2_post": "Archived paper control step-zero memory tensors",
+    "gdn_random": "Archived GDN Random initial-head records; both recorded runs agree exactly",
+    "gdn_post": "Paper PoST head spectrum with archived GDN Random dt_bias",
+    "rwkv7_random": "Reconstructed from the pinned FLA native stock channel biases and the paper frozen-scale rule; not a binary weight export",
+    "rwkv7_post": "Reconstructed from the pinned FLA native stock channel biases and the paper frozen-scale rule; not a binary weight export"
+  }
+}
