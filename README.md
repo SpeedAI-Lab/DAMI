@@ -1,10 +1,8 @@
-# DAMI
-
-**Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention**
+# DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention
 
 <div align="center">
 
-[![License: MIT](assets/badges/license.svg)](https://huggingface.co/SpeedAI-Lab/DAMI/blob/main/LICENSE)
+[![License: MIT](assets/badges/license.svg)](LICENSE)
 [![arXiv: 2610.41994](assets/badges/arxiv.svg)](https://arxiv.org/abs/2610.41994)
 [![GitHub: Code](assets/badges/github.svg)](https://github.com/SpeedAI-Lab/DAMI)
 [![Hugging Face: Checkpoints](assets/badges/huggingface.svg)](https://huggingface.co/SpeedAI-Lab/DAMI)
@@ -13,15 +11,36 @@
 
 Zhangchi Feng · Harry Jiang · Yangyifei Luo · Ray Zhang · Richong Zhang
 
-[Project page](https://speedai.com/research/dami) · [Checkpoints](https://huggingface.co/SpeedAI-Lab/DAMI) · [Training](#training) · [Evaluation](#ruler-evaluation) · [Results](#ruler-results)
+[Paper](https://arxiv.org/abs/2610.41994) · [Project page](https://speedai.com/research/dami) · [Checkpoints](https://huggingface.co/SpeedAI-Lab/DAMI)
 
-DAMI allocates memory timescales across heads and input responses across layers to improve long-context retrieval. This repository supports all **15 combinations** of GDN / KDA / GDN2 / Mamba-2 / RWKV-7 and Random / PoST / DAMI through one training entry point.
+## Table of Contents
+
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Checkpoints and Datasets](#checkpoints-and-datasets)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Citation](#citation)
+- [Acknowledgement](#acknowledgement)
+- [License](#license)
+
+## Overview
+
+DAMI allocates memory timescalesacross heads and input responses across layers to improve long-context retrieval. This repository supports all **15 combinations** of GDN / KDA / GDN2 / Mamba-2 / RWKV-7 and Random / PoST / DAMI through one training entry point.
 
 <p align="center"><img src="assets/teaser.png" alt="DAMI memory timescales and layer-wise input responses" width="960"></p>
 
 <p align="center"><img src="assets/method.png" alt="DAMI method overview" width="1100"></p>
 
-## Installation
+## Requirements
+
+Clone the repository and enter its root directory:
+
+```bash
+git clone https://github.com/SpeedAI-Lab/DAMI.git
+cd DAMI
+```
 
 Use Python 3.12 and Linux/WSL with an NVIDIA CUDA GPU. Install the appropriate PyTorch 2.9 CUDA wheel first, then:
 
@@ -32,32 +51,7 @@ pip install --no-build-isolation -r requirements.txt
 
 Model implementations and kernels come from FLA and Mamba; the training loop uses Transformers Trainer. CUDA build tools may be needed when compatible wheels are unavailable.
 
-## Training
-
-Select an architecture and initialization:
-
-```bash
-python train.py --architecture gdn --initialization dami \
-  --train-files '/data/train-*.parquet' --tokenizer TinyLlama/TinyLlama_v1.1 \
-  --output-dir outputs/gdn/dami
-```
-
-- `--architecture`: `gdn`, `kda`, `gdn2`, `mamba2`, `rwkv7`.
-- `--initialization`: `random`, `post`, `dami`.
-
-Run all 15 paper presets sequentially, with separate output directories:
-
-```bash
-python train.py --all \
-  --train-files '/data/train-*.parquet' --tokenizer TinyLlama/TinyLlama_v1.1 \
-  --output-dir outputs/main
-```
-
-Defaults: approximately 100M parameters, 4096-token context, global batch 128, and 9537 steps (approximately 5B tokens per run). The training seed is 42 except for RWKV-7 + DAMI, which uses 43. `--all --dry-run` previews the matrix. Set `CUDA_VISIBLE_DEVICES` to select a GPU; use `torchrun` for distributed training of an individual combination. PoST denotes the paper's spectral-only control.
-
-The original experiments used FLAME; these training entry points use Transformers Trainer. Paper initialization parameters, fixed evaluation data, and recorded predictions are included.
-
-## RULER evaluation
+## Checkpoints and Datasets
 
 Included: **5,500 fixed samples** across 11 task/length settings and **82,500 original predictions** from the 15 paper checkpoints.
 
@@ -95,6 +89,35 @@ checkpoints/
 
 Each model directory should contain `config.json`, `model.safetensors`, and tokenizer files. Run the following commands from the repository root; replace `checkpoints` with your own checkpoint directory if needed.
 
+The fixed evaluation samples are included in `data/ruler/`, and the original predictions are in `reference/ruler_predictions/`. Training data is supplied separately through `--train-files`.
+
+## Training
+
+Select an architecture and initialization:
+
+```bash
+python train.py --architecture gdn --initialization dami \
+  --train-files '/data/train-*.parquet' --tokenizer TinyLlama/TinyLlama_v1.1 \
+  --output-dir outputs/gdn/dami
+```
+
+- `--architecture`: `gdn`, `kda`, `gdn2`, `mamba2`, `rwkv7`.
+- `--initialization`: `random`, `post`, `dami`.
+
+Run all 15 paper presets sequentially, with separate output directories:
+
+```bash
+python train.py --all \
+  --train-files '/data/train-*.parquet' --tokenizer TinyLlama/TinyLlama_v1.1 \
+  --output-dir outputs/main
+```
+
+Defaults: approximately 100M parameters, 4096-token context, global batch 128, and 9537 steps (approximately 5B tokens per run). The training seed is 42 except for RWKV-7 + DAMI, which uses 43. `--all --dry-run` previews the matrix. Set `CUDA_VISIBLE_DEVICES` to select a GPU; use `torchrun` for distributed training of an individual combination. PoST denotes the paper's spectral-only control.
+
+The original experiments used FLAME; these training entry points use Transformers Trainer. Paper initialization parameters, fixed evaluation data, and recorded predictions are included.
+
+## Evaluation
+
 Check the downloaded models without running inference (Windows/CPU supported):
 
 ```powershell
@@ -114,9 +137,9 @@ python evaluate_ruler.py --all --models-root checkpoints \
   --output-dir outputs/ruler-retest --skip-done
 ```
 
-Use `--architecture` and `--initialization` to evaluate one combination. The evaluator preserves the original prompts and uses greedy bf16 decoding with 128 new tokens and the original batch sizes. It saves predictions, `ruler_results.csv`, and `comparison.json`. Reference rescoring matches **165/165** recorded cells; fresh checkpoint inference is left to the user. Optional `--check-weight-hashes` verifies the complete checkpoint SHA-256 hashes.
+Use `--architecture` and `--initialization` to evaluate one combination. The evaluator preserves the original prompts and uses greedy bf16 decoding with 128 new tokens and the original batch sizes. It saves predictions, `ruler_results.csv`, and `comparison.json`. Rescoring the bundled predictions reproduces all **165/165** recorded cells. Optional `--check-weight-hashes` verifies the complete checkpoint SHA-256 hashes.
 
-## RULER results
+## Results
 
 All models are approximately 100M parameters and trained for 5B tokens. DAMI improves average retrieval accuracy over Random by **13.95 / 16.71 / 13.44 / 14.47 / 5.29 percentage points** for GDN / KDA / GDN2 / Mamba-2 / RWKV-7.
 
@@ -125,6 +148,8 @@ All models are approximately 100M parameters and trained for 5B tokens. DAMI imp
 NIAH-1/2 use 1K, 2K, 4K, and 8K contexts; MK-NIAH uses 1K, 2K, and 4K. Each setting has 500 samples. Scores use case-insensitive answer containment, and Avg. weights all 11 settings equally. Numeric results are available in `assets/retrieval.csv`.
 
 ## Citation
+
+If you use DAMI in your research, please cite:
 
 ```bibtex
 @article{feng2026dami,
@@ -135,4 +160,12 @@ NIAH-1/2 use 1K, 2K, 4K, and 8K contexts; MK-NIAH uses 1K, 2K, and 4K. Each sett
 }
 ```
 
-Built on [FLA](https://github.com/fla-org/flash-linear-attention), [FLAME](https://github.com/fla-org/flame), [Transformers](https://github.com/huggingface/transformers), and [RULER](https://github.com/NVIDIA/RULER). Original repository code uses the [MIT License](LICENSE); benchmark attribution is in [data/ruler/NOTICE.md](data/ruler/NOTICE.md).
+## Acknowledgement
+
+Our implementation builds on [FLA](https://github.com/fla-org/flash-linear-attention), [Mamba](https://github.com/state-spaces/mamba), and [Transformers](https://github.com/huggingface/transformers). We also thank [FLAME](https://github.com/fla-org/flame), which was used for the original training experiments.
+
+Our retrieval evaluation uses [RULER](https://github.com/NVIDIA/RULER). Benchmark attribution and data notices are provided in [data/ruler/NOTICE.md](data/ruler/NOTICE.md). We thank the authors and developers for making their work available. Please cite the corresponding papers when using these resources.
+
+## License
+
+Original repository code is released under the [MIT License](LICENSE). Benchmark data retains its original attribution and applicable terms.
