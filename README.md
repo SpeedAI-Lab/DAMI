@@ -162,7 +162,7 @@ If you use DAMI in your research, please cite:
 
 ## Acknowledgement
 
-Our implementation builds on [FLA](https://github.com/fla-org/flash-linear-attention), [Mamba](https://github.com/state-spaces/mamba), and [Transformers](https://github.com/huggingface/transformers). We also thank [FLAME](https://github.com/fla-org/flame), which was used for the original training experiments.
+Our implementation builds on [FLA](https://github.com/fla-org/flash-linear-attention), [RWKV](https://github.com/BlinkDL/RWKV-LM), [Mamba](https://github.com/state-spaces/mamba), and [Transformers](https://github.com/huggingface/transformers). We also thank [FLAME](https://github.com/fla-org/flame), which was used for the original training experiments.
 
 Our retrieval evaluation uses [RULER](https://github.com/NVIDIA/RULER). Benchmark attribution and data notices are provided in [data/ruler/NOTICE.md](data/ruler/NOTICE.md). We thank the authors and developers for making their work available. Please cite the corresponding papers when using these resources.
 
