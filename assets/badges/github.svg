@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="24" role="img" aria-label="GitHub: Code">
+<title>GitHub: Code</title>
+<linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-opacity=".12"/></linearGradient>
+<clipPath id="r"><rect width="112" height="24" rx="4"/></clipPath>
+<g clip-path="url(#r)"><path fill="#555" d="M0 0h60v24H0z"/><path fill="#24292f" d="M60 0h52v24H60z"/><rect width="112" height="24" fill="url(#s)"/></g>
+<g fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" text-anchor="middle" font-size="12"><text x="30" y="16">GitHub</text><text x="86" y="16">Code</text></g>
+</svg>

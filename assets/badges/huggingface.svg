@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="24" role="img" aria-label="Hugging Face: Checkpoints">
+<title>Hugging Face: Checkpoints</title>
+<linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-opacity=".12"/></linearGradient>
+<clipPath id="r"><rect width="197" height="24" rx="4"/></clipPath>
+<g clip-path="url(#r)"><path fill="#555" d="M0 0h101v24H0z"/><path fill="#ffd21e" d="M101 0h96v24H101z"/><rect width="197" height="24" fill="url(#s)"/></g>
+<g font-family="Verdana,DejaVu Sans,sans-serif" text-anchor="middle" font-size="12"><text x="50.5" y="16" fill="#fff">Hugging Face</text><text x="149.0" y="16" fill="#222">Checkpoints</text></g>
+</svg>

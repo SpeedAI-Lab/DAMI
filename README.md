@@ -2,6 +2,15 @@
 
 **Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention**
 
+<div align="center">
+
+[![License: MIT](assets/badges/license.svg)](https://huggingface.co/SpeedAI-Lab/DAMI/blob/main/LICENSE)
+[![arXiv: 2610.41994](assets/badges/arxiv.svg)](https://arxiv.org/abs/2610.41994)
+[![GitHub: Code](assets/badges/github.svg)](https://github.com/SpeedAI-Lab/DAMI)
+[![Hugging Face: Checkpoints](assets/badges/huggingface.svg)](https://huggingface.co/SpeedAI-Lab/DAMI)
+
+</div>
+
 Zhangchi Feng · Harry Jiang · Yangyifei Luo · Ray Zhang · Richong Zhang
 
 [Project page](https://speedai.com/research/dami) · [Checkpoints](https://huggingface.co/SpeedAI-Lab/DAMI) · [Training](#training) · [Evaluation](#ruler-evaluation) · [Results](#ruler-results)
@@ -118,11 +127,11 @@ NIAH-1/2 use 1K, 2K, 4K, and 8K contexts; MK-NIAH uses 1K, 2K, and 4K. Each sett
 ## Citation
 
 ```bibtex
-@misc{feng2026dami,
+@article{feng2026dami,
   title={DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention},
   author={Feng, Zhangchi and Jiang, Harry and Luo, Yangyifei and Zhang, Ray and Zhang, Richong},
-  year={2026},
-  url={https://speedai.com/research/dami}
+  journal={arXiv preprint arXiv:2610.41994},
+  year={2026}
 }
 ```
 
